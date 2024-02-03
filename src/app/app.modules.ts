@@ -6,13 +6,15 @@ import { RecipeComponent } from './recipe/recipe.component';
 import { CommonModule } from '@angular/common';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
+import { HistoryComponent } from './history/history.component';
 
 @NgModule({
     declarations: [
         AboutComponent,
         TestComponent,
         PostsComponent,
-        RecipeComponent
+        RecipeComponent,
+        HistoryComponent
       ],
     providers: [],
     imports:[CommonModule, BrowserModule, FormsModule]
