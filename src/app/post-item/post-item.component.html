@@ -1,7 +1,11 @@
+<div style="margin-bottom: 40px;">
+
 <h2>{{post.title}}</h2>
 <p>{{post.body}}</p>
 <p>Votes: {{post.votes}}</p>
-<button (click) = "upvote(post)">Upvote</button>
-<button (click) = "downvote(post)">Downvote</button>
-<button (click) = "hide(post)">Hide</button>
+<button style="margin-right: 40px;" class="btn btn-primary" (click) = "upvote(post)">Upvote</button>
+<button style="margin-right: 40px;" class="btn btn-primary" (click) = "downvote(post)">Downvote</button>
+<button style="margin-right: 40px;" class="btn btn-primary"  (click) = "hide(post)">Hide</button>
 <br>
+
+</div>
