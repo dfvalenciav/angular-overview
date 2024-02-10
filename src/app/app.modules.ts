@@ -14,7 +14,7 @@ import { HistoryComponent } from './history/history.component';
         TestComponent,
         PostsComponent,
         RecipeComponent,
-        HistoryComponent
+        HistoryComponent,
       ],
     providers: [],
     imports:[CommonModule, BrowserModule, FormsModule]
