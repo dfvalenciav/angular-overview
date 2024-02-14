@@ -7,6 +7,8 @@ import { CommonModule } from '@angular/common';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 import { HistoryComponent } from './history/history.component';
+import { CreatePostComponent } from './create-post/create-post.component';
+
 
 @NgModule({
     declarations: [
@@ -15,9 +17,10 @@ import { HistoryComponent } from './history/history.component';
         PostsComponent,
         RecipeComponent,
         HistoryComponent,
+        CreatePostComponent
       ],
     providers: [],
-    imports:[CommonModule, BrowserModule, FormsModule]
+    imports:[CommonModule, BrowserModule, FormsModule, FormsModule]
  })
  
  export class AppModule {}
