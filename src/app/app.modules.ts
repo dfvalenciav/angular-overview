@@ -5,7 +5,6 @@ import { PostsComponent } from './posts/posts.component';
 import { RecipeComponent } from './recipe/recipe.component';
 import { CommonModule } from '@angular/common';
 import { BrowserModule } from '@angular/platform-browser';
-import { FormsModule } from '@angular/forms';
 import { HistoryComponent } from './history/history.component';
 import { CreatePostComponent } from './create-post/create-post.component';
 
@@ -20,7 +19,7 @@ import { CreatePostComponent } from './create-post/create-post.component';
         CreatePostComponent
       ],
     providers: [],
-    imports:[CommonModule, BrowserModule, FormsModule, FormsModule]
+    imports:[CommonModule, BrowserModule]
  })
  
  export class AppModule {}
